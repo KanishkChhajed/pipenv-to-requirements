@@ -35,5 +35,5 @@ jobs:
 
       - name: Initialize my build action
         uses: KanishkChhajed/git-readme-action@main
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+        # with:
+        #   token: ${{ secrets.GITHUB_TOKEN }
